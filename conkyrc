@@ -64,6 +64,6 @@ ${color #98c2c7}Home分区: ${color}${alignr}${fs_free /home} / ${fs_size /home}
 ${fs_bar 4 /home}
 
 ${color #98c2c7}网络使用:${color}
-下载速度:$alignr${downspeed wlp4s0} k/s
-上传速度:$alignr${upspeed wlp4s0} k/s
+下载速度:$alignr${downspeed wlp4s0}/s
+上传速度:$alignr${upspeed wlp4s0}/s
 ${downspeedgraph wlp4s0 324D23 77B753}
